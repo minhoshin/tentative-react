@@ -1,26 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import MyComponent from './MyComponent';
+import EventPractice from './EventPractice';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <EventPractice />
+      // <MyComponent name='name' age={3} />
+      // <MyComponent name={2} />
+      // <MyComponent name='' />
     );
   }
 }
